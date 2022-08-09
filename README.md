@@ -1,2 +1,2 @@
-# teste-de-software-ds
-Repositório para exemplos relacionados à Qualidade e Teste de Software.
+# Teste de Software - DS
+Repositório para exemplos e exercícios relacionados a Qualidade e Teste de Software.
