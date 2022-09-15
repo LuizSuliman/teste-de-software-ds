@@ -1,21 +1,21 @@
 #language: pt
 
 # Funcionalidade: Login
->Como usuario do app KnowBre
+>Como usuário do app KnowBre
 >
 >Fulano quer completar o login 
 >
->Para que ele tenha acesso as funcionalidades do usuario logado
+>Para que ele tenha acesso as funcionalidades do usuário logado
 >   
 ## Contexto:
->Dado que fulano possuí uma conta no sistema
+>Dado que fulano possui uma conta no sistema
 >
 ## Cenário: Login válido
 >E ele acessa a página de login
 >
->E preenche suas credenciais válidas
+>E preenche os formulários com suas credenciais válidas
 >
->Quando ele aciona a opção para logar
+>Quando ele aciona a opção de logar
 >
 >Então ele deve ser redirecionado para a página principal de usuário logado (Home)
 >
@@ -28,7 +28,7 @@
 >
 >Então uma mensagem de usuário e/ou senha incorreta deve ser exibida 
 >
-
+-----
 # Funcionalidade: Esqueci minha senha
 >Dado que fulano esqueceu sua senha de cadastro
 >
@@ -48,9 +48,9 @@
 ## Cenário: Fulano preenche com um email anteriormente cadastrado
 >E Fulano preenche o formulário com um email cadastrado
 >
->Então uma mensagem de aviso pede para Fulano checar seu emaiil
+>Então uma mensagem de aviso pede para Fulano checar seu email
 >
->Então uma mensagem é enviada pelo emaail preenchido para ele recuperar sua senha
+>Então uma mensagem é enviada pelo email preenchido para ele recuperar sua senha
 >
 ## Cenário: Fulano preenche com um email nã cadastrado
 >E Fulano preenche o formulário com um email não cadastrado
@@ -59,7 +59,7 @@
 >
 >E pede para Fulano criar uma nava conta
 >
-
+-----
 # Funcionalidade: Cadastro
 >Como usuario do app KnowBre
 >
@@ -91,13 +91,13 @@
 >Então o sistema verifica se os dados registrados são válidos
 >
 >Então uma mensagem destacando a credencial inválida deve ser exibida
-
+-----
 # Funcionalidade: Abrir card Knowbre
 >Dado que Fulano esteja logado
 >
 >E clique em cima de um card Knowbre
 >
->Então Fulano deve visualizar o conteúdo do cord
+>Então Fulano deve visualizar o conteúdo do card
 ## Contexto
 >Dado que Fulano tem uma conta no sistema
 >
@@ -108,7 +108,7 @@
 >
 >Então o conteúdo do card deve ser monstrado e apliado na tela do Fulano
 >
-
+-----
 
 Dado
 Quando
