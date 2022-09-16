@@ -52,7 +52,7 @@
 >
 >Então uma mensagem é enviada pelo email preenchido para ele recuperar sua senha
 >
-## Cenário: Fulano preenche com um email nã cadastrado
+## Cenário: Fulano preenche com um email não cadastrado
 >E Fulano preenche o formulário com um email não cadastrado
 >
 >Então uma mensagem de aviso informa que o email preenchido não tem uma conta relacionada
@@ -106,10 +106,51 @@
 ## Cenário: Usuário clica no card
 >Quando ele clica em cima de um card Knowbre
 >
->Então o conteúdo do card deve ser monstrado e apliado na tela do Fulano
+>Então o conteúdo do card deve ser monstrado e ampliado na tela do Fulano
 >
 -----
+# Funcionalidade: Escrever um card
+>Dado que Fulano esteja logado
+>
+>E clique no ícone para escrever novo card
+>
+>Então Fulano deve ser redirecionado a tela de edição de cards
+## Contexto
+>Dado que Fulano tem uma conta no sistema
+>
+>E acessa a página prncipal
+>
+## Cenário: Editar card
+>Quando ele clica no ícone '+' para escrever um novo card
+>
+>Então ele será redirecionado a tela de edição
 
+## Cenário: Adicionar card
+>E ele clica no ícone '+' para escrever um novo card
+>
+>Quando ele for redirecionado a tela de edição
+>
+>Então poderá clicar no ícone '+' para adicionar mais de um card
+>
+
+## Cenário: Excluir card
+>E ele clica no ícone '+' para escrever um novo card
+>
+>Quando ele for redirecionado a tela de edição
+>
+>Então poderá clicar no ícone de lixeira para excluir um card
+>
+
+## Cenário: Postar card
+>E ele clica no ícone '+' para escrever um novo card
+>
+>E ele for redirecionado a tela de edição
+>
+>Quando ele tiver editado o texto de seu card
+>
+>Então poderá clicar no botão para postar seu card
+>
+-----
 Dado
 Quando
 Então
